@@ -13,6 +13,7 @@ public:
 	int deleteFriends(string userName, string FriendName);
 	int requestAddFriend(string userName, string password);
 	int confirmAddFriend(string userName, string friendName);
+	int checkUserExist(string userName);
 	User getUser(string userName);
 };
 
