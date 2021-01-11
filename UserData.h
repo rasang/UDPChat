@@ -13,5 +13,6 @@ public:
 	int deleteFriends(string userName, string FriendName);
 	int requestAddFriend(string userName, string password);
 	int confirmAddFriend(string userName, string friendName);
+	sockaddr_in getAddr(string userName);
 };
 
